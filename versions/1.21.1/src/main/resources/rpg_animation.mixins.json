@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "package": "dev.shtark.rpganimation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "HumanoidModelMixin",
+    "BedRendererMixin",
+    "BedCullingMixin",
+    "BedLayerPoseMixin",
+    "BedHandPassMixin",
+    "DropHandMixin",
+    "FirstPersonDropHandsMixin",
+    "ChatInputAccessor",
+    "ActivityTabMixin",
+    "ActivityRenderMixin",
+    "InventoryCaptureMixin",
+    "FishingLineViewMixin",
+    "BasicHandMotionMixin",
+    "BasicHandHeightMixin",
+    "BookPageMixin",
+    "FishingHandTransforms",
+    "FishingHandRendererAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ServerPlayerSleepMixin",
+    "ServerPlayerDropMixin",
+    "FishingRodMixin",
+    "FishingHookAccessor",
+    "BasicInteractionMixin",
+    "BasicMountMixin",
+    "ShieldRecoilMixin",
+    "PlaceAnimationMixin",
+    "LecternAnimationMixin",
+    "TeleportAnimationMixin"
+  ]
+}

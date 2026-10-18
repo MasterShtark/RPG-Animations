@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "dev.shtark.rpganimation.mixin.compat",
+  "plugin": "dev.shtark.rpganimation.mixin.compat.SodiumCompatibilityPlugin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["SodiumBlockEntityBridge"],
+  "injectors": {"defaultRequire": 1}
+}
